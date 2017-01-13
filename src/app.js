@@ -44,18 +44,6 @@ $(document).ready(function () {
 
 	//knockout
 
-	// Load and parse the JSON
-	function viewModel() {
-		var someJSON = $.getJSON("/src/json/text.json", function(data) { 
-
-		});
-
-		var parsed = JSON.parse(someJSON);
-		 
-		// Update view model properties
-		viewModel.hdrHome(parsed.hdrHome); //тут попробовал достать данные для первой кнопки в навигации хэдэра
-	};
-
-	ko.applyBindings(viewModel);
+	ko.applyBindings(json);
 
 });
