@@ -1,0 +1,58 @@
+{
+    "hdrHome": "Home",
+    "hdrServices": "Services",
+    "hdrPortfolio": "Portfolio",
+    "hdrContacts": "Contact",
+
+    "tabsBlock1": "Start tour",
+    "tabsBlock2": "For all devices",
+    "tabsBlockTitle1": "Fully Responsive",
+    "tabsBlockText1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente possimus vel alias soluta consectetur aliquam, odio voluptate hic rerum reprehenderit adipisci maiores tempora consequuntur, assumenda, mollitia saepe ratione ipsum magnam.",
+    "tabsBlockTitle2": "Not Fully Responsive",
+    "tabsBlockText2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente possimus vel alias soluta consectetur aliquam, odio voluptate hic rerum reprehenderit adipisci maiores tempora consequuntur, assumenda, mollitia saepe ratione ipsum magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem nemo consectetur architecto earum cum laboriosam dolorum officia, nulla?",
+    "tabsBlockLink": "Start tour",
+
+    "eventTitle4": "We Reach The Top",
+    "eventDate4": "September 2014",
+    "eventBodyTitle4": "Kat is new brand",
+    "eventBodyText4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit sunt amet illum est nostrum odit. Harum facilis velit fuga deserunt quam iusto quaerat? Nam sapiente esse asperiores, corporis a!",
+
+    "eventTitle3": "Close To The Stars",
+    "eventDate3": "May 2014",
+    "eventBodyTitle3": "Big thing are happening",
+    "eventBodyText3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit sunt amet illum est nostrum odit. Harum facilis velit fuga deserunt quam iusto quaerat? Nam sapiente esse asperiores, corporis a! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptatem numquam dignissimos voluptatum, fugit, at dolores, id ratione impedit iure eum facere. Iste corporis quo ipsa, perspiciatis iure cumque molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit sunt amet illum est nostrum odit. Harum facilis velit fuga deserunt quam iusto quaerat? Nam sapiente esse asperiores, corporis a! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptatem numquam dignissimos voluptatum, fugit, at dolores, id ratione impedit iure eum facere. Iste corporis quo ipsa, perspiciatis iure cumque molestiae.",
+
+    "eventTitle2": "New Office",
+    "eventDate2": "April 2013",
+    "eventBodyTitle2": "We are moving",
+    "eventBodyText2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit sunt amet illum est nostrum odit.",
+
+    "eventTitle1": "Ket Is Live",
+    "eventDate1": "March 2012",
+    "eventBodyTitle1": "Just started and feel so alive",
+    "eventBodyText1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit sunt amet illum est nostrum odit. Harum facilis velit fuga deserunt quam iusto quaerat? Nam sapiente esse asperiores, corporis a!",
+    "eventLinkText": "Read more",
+
+    "portfolioTitle": "Our Portfolio",
+    "portfolioTopText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam error hic maiores sunt et vero dolores aperiam, suscipit commodi! Facere amet est aliquid, ratione minus ea, labore repudiandae commodi minima.",
+
+    "filterTabAll": "All",
+    "filterTabWeb": "Web",
+    "filterTabPhoto": "Photography",
+    "filterTabDesign": "Graphic design",
+    "filterContentTitle": "Awesome photo",
+    "filterContentText": "Eum cu tantas legere complectitur, hinc utamu",
+
+    "statProjectVal": "3054",
+    "statProjectText": "completed projects",
+    "statClickVal": "7234873",
+    "statClickText": "click pressed",
+    "statMailVal": "4670",
+    "statMailText": "mails sended & received",
+    "statJokesVal": "939",
+    "statJokesText": "jokes told",
+
+    "contactFormTitle": "Contact Us",
+    "contactFormTopText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam error hic maiores sunt et vero dolores aperiam, suscipit commodi! Facere amet est aliquid, ratione minus ea, labore repudiandae commodi minima.",
+    "contactFormButton": "Send message"
+}

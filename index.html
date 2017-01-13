@@ -21,10 +21,10 @@
 				<div class="hdr-nav">
 					<span></span>
 					<ul>
-						<li><a class="active" href="#">Home</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a data-bind="text: hdrHome" class="active" href="#"></a></li>
+						<li><a data-bind="text: hdrServices" href="#"></a></li>
+						<li><a data-bind="text: hdrPortfolio" href="#"></a></li>
+						<li><a data-bind="text: hdrContacts" href="#"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -36,8 +36,8 @@
 			<div class="inner-wr">
 				<div class="tabs">
 					<ul>
-						<li class="tab-link active" data-tab="tab-1">Start tour</li>
-						<li class="tab-link" data-tab="tab-2">For all devices</li>
+						<li class="tab-link active" data-tab="tab-1" data-bind="text: tabsBlock1"></li>
+						<li class="tab-link" data-tab="tab-2" data-bind="text: tabsBlock2"></li>
 					</ul>
 		        </div>
 
@@ -48,9 +48,9 @@
 		        		</div>
 
 		        		<div class="Rcol">
-		        			<div class="title">Fully Responsive</div>
-		        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente possimus vel alias soluta consectetur aliquam, odio voluptate hic rerum reprehenderit adipisci maiores tempora consequuntur, assumenda, mollitia saepe ratione ipsum magnam.</p>
-		        			<button type="submit">Start tour</button>
+		        			<div data-bind="text: tabsBlockTitle1" class="title"></div>
+		        			<p data-bind="text: tabsBlockText1"></p>
+		        			<button data-bind="text: tabsBlockLink" type="submit"></button>
 		        		</div>
 		        	</div>
 
@@ -60,9 +60,9 @@
 		        		</div>
 
 		        		<div class="Rcol">
-		        			<div class="title">Fully Responsive</div>
-		        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente possimus vel alias soluta consectetur aliquam, odio voluptate hic rerum reprehenderit adipisci maiores tempora consequuntur, assumenda, mollitia saepe ratione ipsum magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem nemo consectetur architecto earum cum laboriosam dolorum officia, nulla?</p>
-		        			<button type="submit">Don't Start tour</button>
+		        			<div data-bind="text: tabsBlockTitle2" class="title"></div>
+		        			<p data-bind="text: tabsBlockText2"></p>
+		        			<button data-bind="text: tabsBlockLink" type="submit"></button>
 		        		</div>
 		        	</div>
 		        </div>
@@ -74,8 +74,8 @@
 				<ul>
 					<li>
 						<div class="Lcol">
-							<div class="Lcol-title">We Reach The Top</div>
-							<div class="col-date">September 2014</div>
+							<div data-bind="text: eventTitle4" class="Lcol-title"></div>
+							<div data-bind="text: eventDate4" class="col-date"></div>
 						</div>
 
 						<div class="Mcol">
@@ -84,16 +84,16 @@
 						</div>
 
 						<div class="Rcol">
-							<div class="Rcol-title">Kat is new brand</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit sunt amet illum est nostrum odit. Harum facilis velit fuga deserunt quam iusto quaerat? Nam sapiente esse asperiores, corporis a!</p>
-							<a href="#">Read more</a>
+							<div data-bind="text: eventBodyTitle4" class="Rcol-title"></div>
+							<p data-bind="text: eventBodyText4"></p>
+							<a data-bind="text: eventLinkText" href="#"></a>
 						</div>
 					</li>
 
 					<li>
 						<div class="Lcol">
-							<div class="Lcol-title">We Reach The Top</div>
-							<div class="col-date">May 2014</div>
+							<div data-bind="text: eventTitle3" class="Lcol-title"></div>
+							<div data-bind="text: eventDate3" class="col-date"></div>
 						</div>
 
 						<div class="Mcol">
@@ -102,16 +102,16 @@
 						</div>
 
 						<div class="Rcol">
-							<div class="Rcol-title">Kat is new brand</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit sunt amet illum est nostrum odit. Harum facilis velit fuga deserunt quam iusto quaerat? Nam sapiente esse asperiores, corporis a! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptatem numquam dignissimos voluptatum, fugit, at dolores, id ratione impedit iure eum facere. Iste corporis quo ipsa, perspiciatis iure cumque molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit sunt amet illum est nostrum odit. Harum facilis velit fuga deserunt quam iusto quaerat? Nam sapiente esse asperiores, corporis a! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptatem numquam dignissimos voluptatum, fugit, at dolores, id ratione impedit iure eum facere. Iste corporis quo ipsa, perspiciatis iure cumque molestiae.</p>
-							<a href="#">Read more</a>
+							<div data-bind="text: eventBodyTitle3" class="Rcol-title"></div>
+							<p data-bind="text: eventBodyText3"></p>
+							<a data-bind="text: eventLinkText" href="#"></a>
 						</div>
 					</li>
 
 					<li>
 						<div class="Lcol">
-							<div class="Lcol-title">We Reach The Top</div>
-							<div class="col-date">April 2013</div>
+							<div data-bind="text: eventTitle2" class="Lcol-title"></div>
+							<div data-bind="text: eventDate2" class="col-date"></div>
 						</div>
 
 						<div class="Mcol">
@@ -120,16 +120,16 @@
 						</div>
 						
 						<div class="Rcol">
-							<div class="Rcol-title">Kat is new brand</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit sunt amet illum est nostrum odit.</p>
-							<a href="#">Read more</a>
+							<div data-bind="text: eventBodyTitle2" class="Rcol-title"></div>
+							<p data-bind="text: eventBodyText2"></p>
+							<a data-bind="text: eventLinkText" href="#"></a>
 						</div>
 					</li>
 
 					<li>
 						<div class="Lcol">
-							<div class="Lcol-title">Ket is Live</div>
-							<div class="col-date">March 2012</div>
+							<div data-bind="text: eventTitle1" class="Lcol-title"></div>
+							<div data-bind="text: eventDate1" class="col-date"></div>
 						</div>
 
 						<div class="Mcol">
@@ -138,9 +138,9 @@
 						</div>
 						
 						<div class="Rcol">
-							<div class="Rcol-title">Just started and feel so alive</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit sunt amet illum est nostrum odit. Harum facilis velit fuga deserunt quam iusto quaerat? Nam sapiente esse asperiores, corporis a!</p>
-							<a href="#">Read more</a>
+							<div data-bind="text: eventBodyTitle1" class="Rcol-title"></div>
+							<p data-bind="text: eventBodyText1"></p>
+							<a data-bind="text: eventLinkText" href="#"></a>
 						</div>
 					</li>
 				</ul>
@@ -149,15 +149,15 @@
 
 		<section class="portfolio-bl gray">
 			<div class="top">
-				<div class="title underlined">Our portfolio</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam error hic maiores sunt et vero dolores aperiam, suscipit commodi! Facere amet est aliquid, ratione minus ea, labore repudiandae commodi minima.</p>
+				<div data-bind="text: portfolioTitle" class="title underlined"></div>
+				<p data-bind="text: portfolioTopText"></p>
 
 				<div class="filter-tabs">
 					<ul>
-						<li class="active"><a class="all" href="#">All</a></li>
-						<li><a class="web" href="#">Web</a></li>
-						<li><a class="photo" href="#">Photography</a></li>
-						<li><a class="design" href="#">Graphic design</a></li>
+						<li class="active"><a data-bind="text: filterTabAll" class="all" href="#"></a></li>
+						<li><a data-bind="text: filterTabWeb" class="web" href="#"></a></li>
+						<li><a data-bind="text: filterTabPhoto" class="photo" href="#"></a></li>
+						<li><a data-bind="text: filterTabDesign" class="design" href="#"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -167,56 +167,56 @@
 					<li class="web">
 						<div class="slide-pic-wr"></div>
 						<div class="pic-descr">
-							<div class="pic-title">web photo</div>
-							<p>Eum cu tantas legere complectitur, hinc utamu</p>
+							<div data-bind="text: filterContentTitle" class="pic-title"></div>
+							<p data-bind="text: filterContentText"></p>
 						</div>
 					</li>
 
 					<li class="web">
 						<div class="slide-pic-wr"></div>
 						<div class="pic-descr">
-							<div class="pic-title">web photo</div>
-							<p>Eum cu tantas legere complectitur, hinc utamu</p>
+							<div data-bind="text: filterContentTitle" class="pic-title"></div>
+							<p data-bind="text: filterContentText"></p>
 						</div>
 					</li>
 
 					<li class="web">
 						<div class="slide-pic-wr"></div>
 						<div class="pic-descr">
-							<div class="pic-title">web photo</div>
-							<p>Eum cu tantas legere complectitur, hinc utamu</p>
+							<div data-bind="text: filterContentTitle" class="pic-title"></div>
+							<p data-bind="text: filterContentText"></p>
 						</div>
 					</li>
 
 					<li class="photo">
 						<div class="slide-pic-wr"></div>
 						<div class="pic-descr">
-							<div class="pic-title">awesome photo</div>
-							<p>Eum cu tantas legere complectitur, hinc utamu</p>
+							<div data-bind="text: filterContentTitle" class="pic-title"></div>
+							<p data-bind="text: filterContentText"></p>
 						</div>
 					</li>
 
 					<li class="design">
 						<div class="slide-pic-wr"></div>
 						<div class="pic-descr">
-							<div class="pic-title">design photo</div>
-							<p>Eum cu tantas legere complectitur, hinc utamu</p>
+							<div data-bind="text: filterContentTitle" class="pic-title"></div>
+							<p data-bind="text: filterContentText"></p>
 						</div>
 					</li>
 
 					<li class="design">
 						<div class="slide-pic-wr"></div>
 						<div class="pic-descr">
-							<div class="pic-title">design photo</div>
-							<p>Eum cu tantas legere complectitur, hinc utamu</p>
+							<div data-bind="text: filterContentTitle" class="pic-title"></div>
+							<p data-bind="text: filterContentText"></p>
 						</div>
 					</li>
 
 					<li class="design">
 						<div class="slide-pic-wr"></div>
 						<div class="pic-descr">
-							<div class="pic-title">design photo</div>
-							<p>Eum cu tantas legere complectitur, hinc utamu</p>
+							<div data-bind="text: filterContentTitle" class="pic-title"></div>
+							<p data-bind="text: filterContentText"></p>
 						</div>
 					</li>
 				</ul>
@@ -228,26 +228,26 @@
 				<ul>
 					<li>
 						<i><img src="src/i/stat-icon1.png" alt="icon1"></i>
-						<div class="col-num">3054</div>
-						<div class="col-descr">completed projects</div>
+						<div data-bind="text: statProjectVal" class="col-num"></div>
+						<div data-bind="text: statProjectText" class="col-descr"></div>
 					</li>
 
 					<li>
 						<i><img src="src/i/stat-icon2.png" alt="icon2"></i>
-						<div class="col-num">7234873</div>
-						<div class="col-descr">click pressed</div>
+						<div data-bind="text: statClickVal" class="col-num"></div>
+						<div data-bind="text: statClickText" class="col-descr"></div>
 					</li>
 
 					<li>
 						<i><img src="src/i/stat-icon3.png" alt="icon3"></i>
-						<div class="col-num">4670</div>
-						<div class="col-descr">mails sended & received</div>
+						<div data-bind="text: statMailVal" class="col-num"></div>
+						<div data-bind="text: statMailText" class="col-descr"></div>
 					</li>
 
 					<li>
 						<i><img src="src/i/stat-icon4.png" alt="icon4"></i>
-						<div class="col-num">939</div>
-						<div class="col-descr">jokes told</div>
+						<div data-bind="text: statJokesVal" class="col-num"></div>
+						<div data-bind="text: statJokesText" class="col-descr"></div>
 					</li>
 				</ul>
 			</div>
@@ -256,16 +256,16 @@
 		<section class="contact-form-bl dark-blue">
 			<div class="inner-wr">
 				<div class="top">
-					<div class="title underlined">Contact us</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam error hic maiores sunt et vero dolores aperiam, suscipit commodi! Facere amet est aliquid, ratione minus ea, labore repudiandae commodi minima.</p>
+					<div data-bind="text: contactFormTitle" class="title underlined"></div>
+					<p data-bind="text: contactFormTopText"></p>
 				</div>
 
-				<form data-bind="submit: saveData">
-					<label class="col2"><input data-bind='value: userName' type="text" name="userName" placeholder="Your name here"></label>
-					<label class="col2"><input data-bind='value: userMail' type="text" name="userMail" placeholder="Your mail here"></label>
-					<label><input data-bind='value: userMessage' type="text" name="userMessage" placeholder="Your message here"></label>
+				<form>
+					<label class="col2"><input type="text" name="userName" placeholder="Your name here"></label>
+					<label class="col2"><input type="text" name="userMail" placeholder="Your mail here"></label>
+					<label><input type="text" name="userMessage" placeholder="Your message here"></label>
 
-					<button id="submit-ko">Send message</button>
+					<button data-bind="text: contactFormButton"></button>
 				</form>
 			</div>
 		</section>
@@ -274,7 +274,7 @@
 	<footer>
 		<div class="inner-wr">
 			<div class="footer-inner">
-				<div class="legal">&copy;&nbsp;2014 - <span>Kat</span> All Rights Reserved</div>
+				<div class="legal">&copy;&nbsp;2014 - <span>Kat</span>&nbsp;All Right Reserved</div>
 			</div>
 		</div>
 	</footer>

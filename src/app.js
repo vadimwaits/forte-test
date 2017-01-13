@@ -3,6 +3,8 @@ var $ = require('jquery');
 
 var ko = require('knockout');
 
+var json = require("./json/text.json");
+
 $(document).ready(function () {
 	//Adaptive nav btn
 
@@ -42,35 +44,18 @@ $(document).ready(function () {
 
 	//knockout
 
-	$("#submit-ko").on("click", function() {
+	// Load and parse the JSON
+	function viewModel() {
+		var someJSON = $.getJSON("/src/json/text.json", function(data) { 
 
-		function viewModel(){
-		    var self = this;
-		    self.userName = ko.observable();
-		    self.userMail = ko.observable();
-		    self.userMessage = ko.observable();
+		});
 
-		    self.saveData = function(){
-			    {
-			        var data = ko.toJSON(
-			            {
-			                userName : self.userName(), userMail : self.userMail(), userMessage : self.userMessage(),
-			            });
-			        $.post("data", data, function(response)
-			        {
-			            // on success callback
-			            self.response(response);
-			        })
-			    }
-		    };
+		var parsed = JSON.parse(someJSON);
+		 
+		// Update view model properties
+		viewModel.hdrHome(parsed.hdrHome); //тут попробовал достать данные для первой кнопки в навигации хэдэра
+	};
 
-		};
-
-		ko.applyBindings(viewModel);
-	});
-	
-
+	ko.applyBindings(viewModel);
 
 });
-
-
